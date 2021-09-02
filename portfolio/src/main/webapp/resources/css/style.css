@@ -481,6 +481,10 @@ body{
 	width: 100%;
 }
 	/* newsList_area */
+	
+.whats_new .newsList_area{
+	height: 100vh;
+}
 .whats_new .newsList_area li a span{
 	margin-top: 20px;
 }
