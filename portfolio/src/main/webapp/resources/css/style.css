@@ -438,32 +438,21 @@ body{
 	-ms-transform: rotate(0deg);
 }
 
-/*----- whats_new 공통 -----*/
-.whats_new { margin: 150px 20px 0 20px; }
-.whats_new h4 { font-size: 30px; font-weight: 600; }
-.whats_new a { display: block; }
-.whats_new .article_title{
-	position: relative;
-}
-.whats_new .article_title .more {
-	position: absolute;
-	top: 30px;
-	right: 0;
-	display: block;
-}
-.whats_new .article_title .more a{
-	color: #000;
-}
 
-.whats_new .col_two { margin: 0 0 0 -50px; }
-.whats_new .col_two > li {
-	float: left;
-	padding: 0 20px 10px 50px;
-	width: 50%;
+.whats_new {
+	margin-top: 90px;
+	padding: 100px 20px;
+	background-image: url("../images/back.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
+.whats_new h4, .news h4 { font-size: 30px; font-weight: 600; }
+.whats_new a, .news a { display: block; }
+
 .whats_new .sub_title { margin: 15px 0 0; color: #000; font-size: 30px; opacity: .7; }
-.whats_new .left { float: left; }
-.whats_new .right { float: right; }
+.whats_new .left, .news .left{ float: left; }
+.whats_new .right, .news .right{ float: right; }
 
 	/* contents_banner */
 .whats_new .contents_banner h3{
@@ -480,23 +469,53 @@ body{
 	padding: 0 0 55px;
 	width: 100%;
 }
+
+/*----- whats_new contents area -----*/
+
+.news { margin: 20px 20px 0 20px; }
+
+.news .article_title .more {
+	position: absolute;
+	top: 30px;
+	right: 0;
+	display: block;
+}
+.news .article_title .more a{
+	color: #000;
+}
+
+.news .col_two { margin: 0 0 0 -50px; }
+.news .col_two > li {
+	float: left;
+	padding: 0 20px 10px 50px;
+	width: 50%;
+}
+
+.news .WhatsNew_contents h4{
+	margin: 0 0 50px;
+	padding: 0 0 25px;
+	border-bottom: 1px solid #ddd;
+}
+.news .News { margin: 80px 0 100px; }
+.news .News .newsList_area > li:nth-of-type(n+2) { margin: 35px 0 0; }
+
 	/* newsList_area */
 	
-.whats_new .newsList_area{
+.WhatsNew_contents  .newsList_area{
 	height: 100vh;
 }
-.whats_new .newsList_area li a span{
+.WhatsNew_contents  .newsList_area li a span{
 	margin-top: 20px;
 }
-.whats_new .newsList_area > li:nth-of-type(n+2) { margin: 20px 0 0; }
-.whats_new .newsList_area > li .left {
+.WhatsNew_contents  .newsList_area > li:nth-of-type(n+2) { margin: 20px 0 0; }
+.WhatsNew_contents  .newsList_area > li .left {
 	overflow: hidden;
 	width: 75%;
 	color: #121212;
 	font-size: 18px;
 	letter-spacing: -0.025rem;
 }
-.whats_new .newsList_area > li .right {
+.WhatsNew_contents  .newsList_area > li .right {
 	display: inline-block;
 	width: 25%;
 	color: #999;
@@ -505,18 +524,9 @@ body{
 	text-align: right;
 }
 
-.whats_new .newsList_area > li {
+.WhatsNew_contents  .newsList_area > li {
 	margin-top: 30px;
 }
-
-/*----- whats_new contents area -----*/
-.whats_new .WhatsNew_contents h4{
-	margin: 0 0 50px;
-	padding: 0 0 25px;
-	border-bottom: 1px solid #ddd;
-}
-.whats_new .News { margin: 80px 0 100px; }
-.whats_new .News .newsList_area > li:nth-of-type(n+2) { margin: 35px 0 0; }
 
 
 footer{

@@ -164,6 +164,8 @@
                     </div>
                 </div>
         </article>
+	</section>
+	<section class="news">
         <article class="WhatsNew_contents News">
             <div class="inner">
                 <div class="article_title">
