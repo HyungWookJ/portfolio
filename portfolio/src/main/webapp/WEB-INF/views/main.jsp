@@ -153,7 +153,7 @@
             </div>
             <!--.headinner end-->
         </header>
-    </div>
+        
     <!-- container -->
     <section class="whats_new">
         <article class="contents_banner WhatsNew_banner">
@@ -236,5 +236,6 @@
             </ul>
         </div>
     </footer>
+</div>
 </body>
 </html>

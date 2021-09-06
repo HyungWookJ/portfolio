@@ -13,12 +13,13 @@
 		margin: 0 auto;
 		margin-top: 200px;
 		text-align: center;
+		color: #fff;
 	}
 </style>
 </head>
 <body>
 <form role="form" action="sign_Up" method="post">
-	<table border="1" style="border: none; background-color: #ccc; width: 500px; height: 500px;"  class="account">
+	<table border="1" style="border: none; background-color: rgb(33, 39, 61); width: 500px; height: 500px;"  class="account">
 		<tr>
 			<th colspan="2" style="text-align: center;">회원가입</th>
 		</tr>
@@ -61,8 +62,8 @@
 		</tr>
 		<tr>
 			<td colspan="2" style="text-align: center;">
-				<input type="submit" value="가입하기" style="background-color: aqua; font-weight: bold; color: #555; width: 200px; height: 40px;">
-				<input type="submit" formaction="/" formmethod="get" value="홈으로" style="background-color: aqua; font-weight: bold; color: #555; width: 200px; height: 40px;">
+				<input type="submit" value="가입하기" style="background-color: aqua; font-weight: bold; color: #000; width: 200px; height: 40px;">
+				<input type="submit" formaction="/" formmethod="get" value="홈으로" style="background-color: aqua; font-weight: bold; color: #000; width: 200px; height: 40px;">
 			</td>
 		</tr>
 	</table>

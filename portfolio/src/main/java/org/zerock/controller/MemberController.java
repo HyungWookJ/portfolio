@@ -36,10 +36,13 @@ public class MemberController {
 	@PostMapping("sign_Up")
 	public String signUpMake(MemberVO member, HttpServletResponse response) throws IOException {
 		logger.info("sign_upMake..." + member);
-		if(member.getId()== "") {
+		if(member.getId() == null || member.getPw()== null || member.getName()== null
+			|| member.getBirthday() == "" || member.getGender() == null
+			|| member.getPhone() == null || member.getEmail()== null) {
+			
 			response.setContentType("text/html; charset=UTF-8");
 			PrintWriter out = response.getWriter();
-			out.println("<script>alert('회원가입정보를 확인해주세요.'); history.back();</script>");
+			out.println("<script>alert('회원가입 작성란에 공백을 확인해주세요.'); history.back();</script>");
 		}
 		service.sign_upMake(member);
 		return "redirect:/login/sign_up_c";

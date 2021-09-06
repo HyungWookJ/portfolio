@@ -19,6 +19,7 @@ body{
 }
 
 .Wrap{
+	position: relative;
     margin: 0 auto;
     font-family: Impact, 'Arial Narrow', sans-serif;
     overflow-x: auto;
@@ -530,7 +531,7 @@ body{
 
 
 footer{
-	position: fixed;
+	position: absolute;
 	bottom: 0;
     padding: 50px 0;
     width: 100%;
